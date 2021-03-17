@@ -1,0 +1,25 @@
+{
+  "name": "@fanna/crc",
+  "version": "1.1.0",
+  "description": "Simple npm package for creating functional components and hooks with their test files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react","reactjs","typescript","create-react-component","generate-test","generate-component"],
+
+  "author": "Asim Mohammmed",
+  "license": "ISC",
+  "bin": {
+    "crc": "index.js"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asimFanna/crc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asimFanna/crc/issues"
+  },
+  "homepage": "https://github.com/asimFanna/crc#readme"
+}
