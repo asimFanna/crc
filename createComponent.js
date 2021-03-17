@@ -6,7 +6,7 @@ function createComponent(cmpName,style) {
     files.forEach((file,index)=>{
         if(index===0||index<files.length){
             dir+=file+'/'
-            fs.mkdir(dir, err => {if (!err) return; console.log(err)});
+            fs.mkdir(dir, err => {if (!err || err.errno === -4075) return; console.log(err)});
         } if(index+1===files.length){
             const name = file.split('.')[0];
             fs.writeFile(dir+'index.'+(config.template==='js'?'js':'tsx'),Component(name), err=>console.log(err||`${name} Component Created !`));

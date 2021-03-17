@@ -1,7 +1,7 @@
 {
-  "name": "@fanna/crc",
+  "name": "@fannasd/crc",
   "version": "1.1.0",
-  "description": "Simple npm package for creating functional components and hooks with their test files.",
+  "description": "Simple npm package for creating function components and hooks with their test files in javascript or typescript.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
